@@ -46,7 +46,7 @@ body{
  
 .content{
     display: flex;
-    max-width: 1200px;
+    max-width: 1700px;
     justify-content: center;
 }
 
@@ -71,5 +71,38 @@ body{
     }
 }
 
+.tasks{
+    background-color: white;
+    height: 100vh;
+    // width: calc(1200px - 266px);
+    width: 400px;
+    padding: 74px 20px 0;
 
+    .add_task_btn {
+        cursor: pointer;
+        .plus{
+            color: #dd4b39;
+            font-size: 18px;
+        }
+
+        .add_task_text{
+            color: #545454;
+            font-size: 14px;
+            margin-left: 15px;
+        }
+    }
+
+    .add_task_dialog{
+        margin-top: 10px;
+        input{
+            width:100%;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            height: 35px;
+            padding-left: 10px;
+            padding-right: 10px;
+
+        }
+    }
+}
 
